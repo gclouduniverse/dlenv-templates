@@ -6,7 +6,7 @@ metadata:
    app: jupyter-notebook
 spec:
  containers:
- - image: gcr.io/deeplearning-platform/release.tf2-cpu.2-6
+ - image: gcr.io/deeplearning-platform-release/tf2-cpu.2-6
    name: jupyter
    volumeMounts:
    - name: workdir
